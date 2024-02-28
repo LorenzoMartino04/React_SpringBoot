@@ -12,6 +12,7 @@ public class CrudApplication {
 
 	public static void main(String[] args) {
 
+
 		Dotenv dotenv = Dotenv.configure().load();
 
 		System.setProperty("URL_DATABASE", dotenv.get("URL_DATABASE"));
@@ -23,3 +24,5 @@ public class CrudApplication {
 
 
 }
+
+
