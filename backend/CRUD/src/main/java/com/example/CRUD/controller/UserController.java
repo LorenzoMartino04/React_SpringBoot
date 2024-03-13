@@ -32,4 +32,10 @@ public class UserController {
         List<User> userList = userService.getAllUsers();
         return ResponseEntity.ok(userList);
     }
+
+    @PostMapping("/Login")
+    public ResponseEntity<String> Login(@RequestBody UserDto userDto) {
+        userService.Login(userDto);
+        return ResponseEntity.ok("ok");
+    }
 }

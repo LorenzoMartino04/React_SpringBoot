@@ -51,12 +51,12 @@ public class User {
         this.email = email;
     }
 
-    public String getPassowrd() {
+    public String getPassword() {
         return password;
     }
 
-    public void setPassowrd(String passowrd) {
-        this.password = passowrd;
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
 
